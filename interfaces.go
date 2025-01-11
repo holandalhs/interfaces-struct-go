@@ -74,6 +74,15 @@ func main() {
 		Patas: 4,
 	}
 
+	adulto := Pessoa{
+		Nome:             "Mauro",
+		Idade:            50,
+		Prof:             "Cantor",
+		TempoDeProfissao: 15,
+	}
+
+	fmt.Println(adulto.FalaBomDia(), adulto.Profissao())
+
 	fmt.Println(cachorro.Barulho(), cachorro.NumDePatas())
 	fmt.Println(gato.Barulho(), gato.NumDePatas())
 
